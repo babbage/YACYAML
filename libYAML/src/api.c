@@ -15,13 +15,13 @@ yaml_get_version_string(void)
  * Get the library version numbers.
  */
 
-YAML_DECLARE(void)
-yaml_get_version(int *major, int *minor, int *patch)
-{
-    *major = 0;
-    *minor = 1;
-    *patch = 4;
-}
+//YAML_DECLARE(void)
+//yaml_get_version(int *major, int *minor, int *patch)
+//{
+//    *major = 0;
+//    *minor = 1;
+//    *patch = 4;
+//}
 
 /*
  * Allocate a dynamic memory block.
