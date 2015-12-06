@@ -8,7 +8,7 @@
 YAML_DECLARE(const char *)
 yaml_get_version_string(void)
 {
-    return YAML_VERSION_STRING;
+    return "0.1.4";
 }
 
 /* Define the major version number. */
@@ -31,9 +31,9 @@ yaml_get_version_string(void)
 YAML_DECLARE(void)
 yaml_get_version(int *major, int *minor, int *patch)
 {
-    *major = YAML_VERSION_MAJOR;
-    *minor = YAML_VERSION_MINOR;
-    *patch = YAML_VERSION_PATCH;
+    *major = 0;
+    *minor = 1;
+    *patch = 4;
 }
 
 /*
