@@ -12,6 +12,19 @@ yaml_get_version_string(void)
     return YAML_VERSION_STRING;
 }
 
+/* Define the major version number. */
+#define YAML_VERSION_MAJOR 0
+
+/* Define the minor version number. */
+#define YAML_VERSION_MINOR 1
+
+/* Define the patch version number. */
+#define YAML_VERSION_PATCH 4
+
+/* Define the version string. */
+#define YAML_VERSION_STRING "0.1.4"
+
+
 /*
  * Get the library version numbers.
  */
