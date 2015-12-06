@@ -33,7 +33,7 @@ AM_INIT_AUTOMAKE([1.9 foreign])
 AC_DEFINE(YAML_VERSION_MAJOR, YAML_MAJOR, [Define the major version number.])
 AC_DEFINE(YAML_VERSION_MINOR, YAML_MINOR, [Define the minor version number.])
 AC_DEFINE(YAML_VERSION_PATCH, YAML_PATCH, [Define the patch version number.])
-AC_DEFINE(YAML_VERSION_STRING, "YAML_MAJOR.YAML_MINOR.YAML_PATCH", [Define the version string.])
+# AC_DEFINE(YAML_VERSION_STRING, "YAML_MAJOR.YAML_MINOR.YAML_PATCH", [Define the version string.])
 
 # Define substitutions for the libtool version numbers.
 YAML_LT_RELEASE=YAML_RELEASE
