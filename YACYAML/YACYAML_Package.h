@@ -7,7 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <libYAML/yaml.h>
 
 extern NSString * const YACYAMLUnkeyedChildrenKey;
 
