@@ -15,6 +15,10 @@
 
 #import <libYAML/yaml.h>
 
+@interface YACYAMLKeyedArchiver()
+- (void)encodeObject:(nullable id)obj forKey:(nullable NSString *)key;
+@end
+
 @implementation YACYAMLKeyedArchiver {
     NSMutableData *_dataForWriting;
     FILE *_fileForWriting;
@@ -289,7 +293,7 @@ static int EmitToNSMutableData(void *ext, unsigned char *buffer, size_t size)
 
 #pragma mark - Keyed archiving
 
-- (void)encodeObject:(id)obj forKey:(NSString *)key
+- (void)encodeObject:(nullable id)obj forKey:(nullable NSString *)key
 {
     [[_archivingObjectStack lastObject] encodeChild:obj ?: [NSNull null]
                                              forKey:key];

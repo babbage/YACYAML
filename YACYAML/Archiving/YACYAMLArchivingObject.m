@@ -106,7 +106,7 @@ static CFMutableArrayRef CreateNonRetainingArray(void)
                                 });
 }
 
-- (void)encodeChild:(id)obj forKey:(id)key
+- (void)encodeChild:(nullable id)obj forKey:(nullable id)key
 {
     // See comments above, at ivar declarations, for why we're using
     // CFMutableArrays that don't retain their contents here insead of
